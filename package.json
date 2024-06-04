@@ -1,0 +1,17 @@
+{
+	"name": "sayo-gif-creator-cli",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"cleanup": "yarn prettier -c . -w ",
+		"pkg": "ts-node src/index.ts"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"@ptkdev/logger": "^1.8.0",
+		"@types/ffmpeg": "^1.0.7",
+		"@types/inquirer": "^9.0.7",
+		"inquirer": "8.0.0",
+		"prettier": "^3.3.0"
+	}
+}
